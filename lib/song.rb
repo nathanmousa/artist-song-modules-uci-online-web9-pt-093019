@@ -10,10 +10,6 @@ class Song
 
   @@songs = []
 
-  def initialize
-    super
-  end
-
   def self.all
     @@songs
   end
